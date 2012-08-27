@@ -1,4 +1,4 @@
-# minitest/should
+# minitest/spec/should [![Build Status](https://secure.travis-ci.org/stephenmckinney/minitest-spec-should.png)](http://travis-ci.org/stephenmckinney/minitest-spec-should)
 
 Support for traditional BDD syntax in MiniTest::Spec.
 
@@ -11,16 +11,16 @@ To quote Dan North in [Introducting BDD](http://dannorth.net/introducing-bdd/):
  
 ## Installation
 
-    gem install minitest-should
+    gem install minitest-spec-should
 
 In Gemfile:
 
-    gem 'minitest-should'
+    gem 'minitest-spec-should'
 
 ##Usage
 
     require 'minitest/autorun'
-    require 'minitest/should'
+    require 'minitest/spec/should'
 
     describe Object do
       it "should respond to should_equal" do
